@@ -94,6 +94,11 @@
   -webkit-animation: #{$notification-css-prefix}-countdown linear 1;
 }
 
+.#{$notification-css-prefix}:hover .#{$notification-css-prefix}-countdown {
+  animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+}
+
 
 // Notification themes
 // --------------------------------------------------
